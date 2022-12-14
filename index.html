@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Reem+Kufi:wght@600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3bb5c1e371.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio - Vitor Macel</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#"><img class="logo" src="./images/Logo_AI.png" alt="Logotipo Vitor Macel"></a>
+            <nav class="nav-bar">
+                <ul class="nav-bar-list">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="container">
+                <div class="col-1">
+                    <h1 class="main_text"><span>Desenvolvedor</span> front end para o seu projeto.</h1>
+                    <p class="sub_text subtext_animation">Um profissional focado em trazer o que sua empresa merece.</p>
+                    <button class="btn_active">Vamos trabalhar juntos!</button>
+                </div>
+                <img class="illustration_1" src="./images/sokka.png" alt="Ilustração do desenvolvedor">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <img class="illustration_2" src="./images/sokka.png" alt="Ilustração do desenvolvedor">
+                <div class="col-2">
+                    <h4>Olá, me chamo Vitor Macel.</h4>
+                    <div class="main_text">
+                        <p>Iniciei minha jornada no mundo dos códigos quando ainda era um pequeno ser humaninho, me lembro perfeitamente dos primeiros projetos, da intensa pesquisa por trás deles, e principalmente, do valor e conhecimento que isso me trouxe.</p>
+                        <p>Hoje, inicio minha carreira buscando me tornar um experiente Full Stack e aplicar minhas habilidades no Desenvolvimento Web.</p>
+                    </div>        
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h4>Habilidades</h4>
+                <p class="subtitle">Do que você precisa hoje?</p>
+                <ul class="skills_list">
+                    <li class="card_skill">
+                        <p class="skill_title">HTML</p>
+                        <span class="skill_icon"><i class="fa-brands fa-html5"></i></span>
+                        <div class="skill_bar"></div>
+                        <div class="skill_bar bar_inside" style="height: 80%;"></div>
+                    </li>
+
+                    <li class="card_skill">
+                        <p class="skill_title">CSS</p>
+                        <span class="skill_icon"><i class="fa-brands fa-css3-alt"></i></span>
+                        <div class="skill_bar"></div>
+                        <div class="skill_bar bar_inside" style="height: 85%;"></div>
+                    </li>
+
+                    <li class="card_skill">
+                        <p class="skill_title">Javascript</p>
+                        <span class="skill_icon"><i class="fa-brands fa-square-js"></i></span>
+                        <div class="skill_bar"></div>
+                        <div class="skill_bar bar_inside" style="height: 75%;"></div>
+                    </li>
+
+                    <li class="card_skill">
+                        <p class="skill_title">React</p>
+                        <span class="skill_icon"><i class="fa-brands fa-react"></i></span>
+                        <div class="skill_bar"></div>
+                        <div class="skill_bar bar_inside" style="height: 65%;"></div>
+                    </li>
+
+                    <li class="card_skill">
+                        <p class="skill_title">Figma</p>
+                        <span class="skill_icon"><i class="fa-brands fa-figma"></i></span>
+                        <div class="skill_bar"></div>
+                        <div class="skill_bar bar_inside" style="height: 70%;"></div>
+                    </li>
+
+                    <li class="card_skill">
+                        <p class="skill_title">Git</p>
+                        <span class="skill_icon"><i class="fa-brands fa-git-alt"></i></span>
+                        <div class="skill_bar"></div>
+                        <div class="skill_bar bar_inside" style="height: 60%;"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <h4>Projetos</h4>
+                <p class="subtitle">O que sou capaz de fazer?</p>
+
+                <ul class="projects_nav">
+                    <button class="btn_active">Sites</button>
+                    <button class="btn">UX / UI</button>
+                    <button class="btn">Apps</button>
+                </ul>
+
+                <div class="cards">
+                    <article class="card_project">
+                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                        <span class="card_project_hover">
+                            <p class="card_title">Nome do Projeto</p>
+                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                        </span>
+                    </article>
+
+                    <article class="card_project">
+                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                        <span class="card_project_hover">
+                            <p class="card_title">Nome do Projeto</p>
+                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                        </span>
+                    </article>
+
+                    <article class="card_project">
+                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                        <span class="card_project_hover">
+                            <p class="card_title">Nome do Projeto</p>
+                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                        </span>
+                    </article>
+
+                    <article class="card_project">
+                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                        <span class="card_project_hover">
+                            <p class="card_title">Nome do Projeto</p>
+                            <p>Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                        </span>
+                    </article>
+
+                    <article class="card_project">
+                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                        <span class="card_project_hover">
+                            <p class="card_title">Nome do Projeto</p>
+                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                        </span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h4>Contato</h4>
+                <p class="subtitle">Vamos tornar suas ideias reais!</p>
+            
+                <div class="contact_container">
+                    <form class="contact_form" action="">
+                        <h2>Me mande uma mensagem</h2>
+
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" required placeholder="Nome">
+
+                        <label for="name">E-mail</label>
+                        <input type="email" name="email" id="email" required placeholder="E-mail">
+                    
+                        <label for="name">Nome</label>
+                        <textarea placeholder="Mensagem" required id="message"></textarea>
+                    
+                        <input class="btn_active" type="submit" value="Enviar">
+                    </form>
+
+                    <ul class="contact_list">
+                        <li>
+                            <a href="mailto:ovitormacel00@gmail.com">
+                                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                                <p>ovitormacel00@gmail.com</p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/ovitormacel" target="_blank">
+                                <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                <p>github.io/ovitormacel</p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                            <p>(11) 97859-0689</p>
+                        </li>
+
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <p>São Bernardo do Campo - SP</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Desenvolvido por <span>Vitor Macel</span> &copy; 2022</p>
+            <!-- <span class="hearth"><i class="fa-solid fa-heart"></i></span> -->
+            <img class="logo" src="./images/Logo_AI.png" alt="Logotipo Vitor Macel">
+        </div>
+    </footer>
+</body>
+</html>
