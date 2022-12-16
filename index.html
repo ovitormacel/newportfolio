@@ -12,7 +12,7 @@
 
     <script src="https://kit.fontawesome.com/3bb5c1e371.js" crossorigin="anonymous"></script>
 
-    <title>Portfolio - Vitor Macel</title>
+    <title>Portfólio | Vitor Macel</title>
 </head>
 <body>
 
@@ -37,7 +37,7 @@
                 <div class="col-1">
                     <h1 class="main_text"><span>Desenvolvedor</span> front end para o seu projeto.</h1>
                     <p class="sub_text subtext_animation">Um profissional focado em trazer o que sua empresa merece.</p>
-                    <button class="btn_active">Vamos trabalhar juntos!</button>
+                    <a href="#contact" class="btn_active">Vamos trabalhar juntos!</a>
                 </div>
                 <img class="illustration_1" src="./images/sokka.png" alt="Ilustração do desenvolvedor">
             </div>
@@ -49,7 +49,7 @@
                 <div class="col-2">
                     <h4>Olá, me chamo Vitor Macel.</h4>
                     <div class="main_text">
-                        <p>Iniciei minha jornada no mundo dos códigos quando ainda era um pequeno ser humaninho, me lembro perfeitamente dos primeiros projetos, da intensa pesquisa por trás deles, e principalmente, do valor e conhecimento que isso me trouxe.</p>
+                        <p>Iniciei minha jornada no mundo dos códigos quando ainda era um pequeno ser humaninho, me lembro perfeitamente dos primeiros projetos, da intensa pesquisa por trás deles e principalmente, do valor e conhecimento que isso me trouxe.</p>
                         <p>Hoje, inicio minha carreira buscando me tornar um experiente Full Stack e aplicar minhas habilidades no Desenvolvimento Web.</p>
                     </div>        
                 </div>
@@ -112,57 +112,84 @@
                 <p class="subtitle">O que sou capaz de fazer?</p>
 
                 <ul class="projects_nav">
-                    <button class="btn_active">Sites</button>
-                    <button class="btn">UX / UI</button>
-                    <button class="btn">Apps</button>
+                    <button id="category_sites" class="btn btn_active">Sites</button>
+                    <button id="category_uxui" class="btn">UX / UI</button>
+                    <button id="category_apps" class="btn">Apps</button>
                 </ul>
 
-                <div class="cards">
-                    <article class="card_project">
-                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
-                        <span class="card_project_hover">
-                            <p class="card_title">Nome do Projeto</p>
-                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
-                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
-                        </span>
-                    </article>
+                <div class="cards_categories">
 
-                    <article class="card_project">
-                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
-                        <span class="card_project_hover">
-                            <p class="card_title">Nome do Projeto</p>
-                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
-                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
-                        </span>
-                    </article>
+                    <div class="cards category_sites">
+                        <article class="card_project">
+                            <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                            <span class="card_project_hover">
+                                <p class="card_title">Sites</p>
+                                <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                                <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                            </span>
+                        </article>
 
-                    <article class="card_project">
-                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
-                        <span class="card_project_hover">
-                            <p class="card_title">Nome do Projeto</p>
-                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
-                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
-                        </span>
-                    </article>
+                        <article class="card_project">
+                            <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                            <span class="card_project_hover">
+                                <p class="card_title">Sites</p>
+                                <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                                <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                            </span>
+                        </article>
+                    </div>
 
-                    <article class="card_project">
-                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
-                        <span class="card_project_hover">
-                            <p class="card_title">Nome do Projeto</p>
-                            <p>Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
-                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
-                        </span>
-                    </article>
 
-                    <article class="card_project">
-                        <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
-                        <span class="card_project_hover">
-                            <p class="card_title">Nome do Projeto</p>
-                            <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
-                            <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
-                        </span>
-                    </article>
+
+                    <div class="cards category_uxui hide">
+                        <article class="card_project">
+                            <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                            <span class="card_project_hover">
+                                <p class="card_title">UX / UI</p>
+                                <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                                <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                            </span>
+                        </article>
+
+                        <article class="card_project">
+                            <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                            <span class="card_project_hover">
+                                <p class="card_title">UX / UI</p>
+                                <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                                <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                            </span>
+                        </article>
+
+                        <article class="card_project">
+                            <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                            <span class="card_project_hover">
+                                <p class="card_title">UX / UI</p>
+                                <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                                <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                            </span>
+                        </article>
+
+                        <article class="card_project">
+                            <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                            <span class="card_project_hover">
+                                <p class="card_title">UX / UI</p>
+                                <p>Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                                <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                            </span>
+                        </article>
+
+                        <article class="card_project">
+                            <img class="image_project" src="./images/sokka.png" alt="Exemplo de imagem de Projeto">
+                            <span class="card_project_hover">
+                                <p class="card_title">UX / UI</p>
+                                <p class="card_description">Descrição do projeto feito utilizando Figma, HTML, CSS e JS</p>
+                                <button class="btn"><i class="fa-solid fa-eye"></i>Visualizar</button>
+                            </span>
+                        </article>
+                    </div>
+
                 </div>
+
             </div>
         </section>
 
@@ -220,9 +247,10 @@
     <footer class="footer">
         <div class="container">
             <p>Desenvolvido por <span>Vitor Macel</span> &copy; 2022</p>
-            <!-- <span class="hearth"><i class="fa-solid fa-heart"></i></span> -->
-            <img class="logo" src="./images/Logo_AI.png" alt="Logotipo Vitor Macel">
+            <a href="#home"><img class="logo" src="./images/Logo_AI.png" alt="Logotipo Vitor Macel"></a>
         </div>
     </footer>
+
+    <script src="./controller/App.js"></script>
 </body>
 </html>
